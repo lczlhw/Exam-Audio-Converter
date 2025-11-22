@@ -1,0 +1,14 @@
+# Exam Audio Converter
+
+## requirement
+
+ffmpeg
+
+## example cli
+
+```python main.py -i input_audio_dir -o output_audio_dir --format mp3```
+
+## Other
+
+The program is created with the help of AI in one night, and should have a lot of bugs.
+Enn, it is too slow, but it can run.
