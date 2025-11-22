@@ -1,0 +1,6 @@
+click
+pydub
+librosa
+numpy
+scipy
+tqdm

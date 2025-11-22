@@ -55,7 +55,7 @@ def process_audio(input_file, output_file, fmt):
         # ⚠️ Path → str，确保为绝对路径，并保持 Unicode
         input_file = str(Path(input_file).resolve())
         output_file = str(Path(output_file).resolve())
-        template_file = "template.mp3"
+        template_file = "assets/template.mp3"
         template_length_s = 2
         silence_duration_ms = 2000
 

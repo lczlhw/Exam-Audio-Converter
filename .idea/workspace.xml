@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80a32c58-cf28-42f8-96f2-e4c884b1a18b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/audio_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/audio_processor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
