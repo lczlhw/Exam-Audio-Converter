@@ -2,6 +2,9 @@ import click
 from pathlib import Path
 from task_manager import process_files
 import os
+import sys
+import multiprocessing
+from shutil import which
 
 @click.command()
 @click.option("--input", "-i", required=True, type=click.Path(exists=True), help="输入目录")
@@ -32,7 +35,13 @@ def cli(input, output, trim_start, trim_end, gain, format, workers):
         workers
     )
 
+def require(cmd):
+    if which(cmd) is None:
+        print(f"缺少依赖: {cmd}\n请先安装后再运行程序")
+        sys.exit(1)
 
 if __name__ == "__main__":
     os.environ["PYTHONUTF8"] = "1"
+    require("ffmpeg")
+    multiprocessing.freeze_support()
     cli()

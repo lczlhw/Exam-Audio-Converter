@@ -1,0 +1,9 @@
+# PyInstaller
+/build/
+/dist/
+
+# Python 常用忽略
+*.pyc
+__pycache__/
+.env
+/.venv/
